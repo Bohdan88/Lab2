@@ -2,9 +2,9 @@ package com.company;
 
 public class Main {
     public static void main(String[] args) {
-        Buket buket = new Buket("Trush", 34, 349);
-        Kvity kvity = new Romashka("Romashka");
-        Buket.Upakovka upakovka = new Buket.Upakovka("Bumaga", "Red");
+        Buket buket = new Buket("Trud", 33, 1349);
+        Kvity kvity = new Romashka("Romashan");
+        Buket.Upakovka upakovka = new Buket.Upakovka("Bumags", "Redegit ");
         buket.Print();
         kvity.Print();
         upakovka.Print();
